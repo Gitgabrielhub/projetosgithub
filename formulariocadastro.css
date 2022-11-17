@@ -1,0 +1,85 @@
+.formulario{
+
+}
+body{
+    background-color:#bb8fce;
+}
+label{
+    display: block;
+}
+h1{
+    padding-top: 5px;
+}
+label input, select, textarea{
+    width: 40%;
+
+    
+}
+label, textarea, h1, option{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+input {
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid  #6c3483 ;
+    background-color:  #8e44ad ;
+    outline: 0;
+}
+select{
+    padding: 10px;
+    border:2px solid #6c3483;
+    background-color:  #8e44ad ;
+}
+button{
+    padding: 10px;
+    width: 25%;
+    border:2px solid #6c3483;
+    background-color:  #8e44ad ;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+a, button:hover{
+background-color:   #bb8fce  ;
+}
+
+a, .check{
+    color:  #4a235a ;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+textarea{
+    resize: none;
+    outline: #4a235a;
+    background-color: #8e44ad;
+    border: 2px solid #6c3483;
+}
+legend{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+fieldset{
+    border: 2px solid  #4a235a;
+    padding-left:40% ;
+    
+}
+/* responsividade do site*/
+/*celular, dispositos moveis de ate 200px */
+
+@media (min-width:10px ) and (max-width:320px){
+    h1, legend{
+        font-size: 15px;
+    }
+    label{
+        font-size: 13px;
+    }
+    label input{
+        width: 35%;
+    }
+    
+}
+/*para dispositivos maiores como tabletes*/
+
+
